@@ -4,10 +4,8 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.shuffle = function (inArray) {
-    var length = inArray.length,
-      i = length,
-      temp,
-      random;
+    var length = inArray.length, i = length;
+    var temp, random;
 
     while(i--){
       if(i !== (random = Math.floor(Math.random() * length))){
