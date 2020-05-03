@@ -1,6 +1,17 @@
 # next-shuffle
-> Shuffle an array (will not create new array).
+> Shuffle an array.
 
+## installation
+```bash
+npm install -S @feizheng/next-shuffle
+```
+
+## usage
+```js
+import '@feizheng/next-shuffle';
+
+//DOCS here!
+```
 
 ## another solution:
 ```js
@@ -12,4 +23,5 @@ function shuffleUseSort(aArr){
 ```
 
 ## resources:
-+ http://zpz.name/562/
+- http://zpz.name/562/
+- http://caibaojian.com/js-random-array.html
