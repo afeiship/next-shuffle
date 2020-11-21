@@ -3,7 +3,7 @@
  * description: Shuffle an array.
  * homepage: https://github.com/afeiship/next-shuffle
  * version: 1.0.0
- * date: 2020-11-21 10:58:15
+ * date: 2020-11-21 11:00:53
  * license: MIT
  */
 
