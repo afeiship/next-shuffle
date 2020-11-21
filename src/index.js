@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-shuffle
- * description: Shuffle an array.
- * homepage: https://github.com/afeiship/next-shuffle
- * version: 1.0.0
- * date: 2020-05-03T13:44:29.143Z
- * license: MIT
- */
-
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.shuffle = function (inArray) {
     var length = inArray.length;
@@ -31,5 +22,3 @@
     module.exports = nx.shuffle;
   }
 })();
-
-//# sourceMappingURL=next-shuffle.js.map
